@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+#headers {
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.right-links {
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+
+}
+
+.subtext {
+    display: flex;
+    align-items: center;
+}
